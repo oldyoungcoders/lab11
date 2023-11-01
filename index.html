@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Haich , chulluu , davuu togloi !!!</title>
+
+        <style>
+
+            body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to top left, #df0a0a, #00ccff);
+            height:100vh;
+                }
+
+            .game{
+                width: 600px;
+                background-color: #fff;
+                padding: 20px;
+            }
+
+            .game img{
+                width: 30%;
+                margin-right: 15px;
+                cursor: pointer;
+            }
+
+        </style>
+
+    </head>
+    
+    <body>
+
+
+        <div class="game">
+            <div class="count">
+                <p class="pCount">Player:</p>
+                <p class="cCount">Computer:</p>
+            </div>
+            <div class="choice">
+                <img src="https://www.vhv.rs/dpng/d/535-5351099_rock-paper-scissors-rock-paper-scissors-icons-png.png" onclick="play('paper')">
+
+                <img src="https://yvana.org/games/games-images/rock-paper-scissor/scissors.png" onclick="play('scissor')">
+
+                <img src="https://toppng.com/uploads/preview/rock-paper-scissors-circle-11562962494dqcjusyikw.png" onclick="play('rock')">
+            </div>
+
+            <div class="result">
+                <p class="player">Player choice:</p>
+                <p class="computer">Computer choice:</p>
+                <p class="winner">Winner: </p>
+            </div>
+        </div>
+
+        <script src ="app.js"></script>
+
+        <style src="styel.css"></style>
+
+    </body>
+
+</html>
